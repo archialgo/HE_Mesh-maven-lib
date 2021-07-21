@@ -1,16 +1,19 @@
 install:
-  # hemesh:7 jars
+
   - FILE="-Dfile=./lib/hemesh.jar"
-  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=hemesh -Dversion=1.8.2 -Dpackaging=jar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=hemesh -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true
                 
-  - FILE2="-Dfile=./lib/javolution-5.5.1.jar"
-  - mvn install:install-file $FILE2 -DgroupId=com.github.wblut -DartifactId=javolution-5.5.1 -Dversion=1.8.2 -Dpackaging=jar -DgeneratePom=true 
+  - FILE2="-Dfile=./lib/hemesh_2.0.0.jar"
+  - mvn install:install-file $FILE2 -DgroupId=com.github.wblut -DartifactId=hemesh_2.0.0 -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true 
 
-  - FILE3="-Dfile=./lib/jts.jar"
-  - mvn install:install-file $FILE3 -DgroupId=com.github.wblut -DartifactId=jts -Dversion=1.8.2 -Dpackaging=jar -DgeneratePom=true 
+  - FILE3="-Dfile=./lib/hemesh-external.jar"
+  - mvn install:install-file $FILE3 -DgroupId=com.github.wblut -DartifactId=hemesh-external -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true 
 
-  - FILE4="-Dfile=./lib/ProGAL.jar"
-  - mvn install:install-file $FILE4 -DgroupId=com.github.wblut -DartifactId=ProGAL -Dversion=1.8.2 -Dpackaging=jar -DgeneratePom=true
+  - FILE4="-Dfile=./lib/javolution-6.1.0.jar"
+  - mvn install:install-file $FILE4 -DgroupId=com.github.wblut -DartifactId=javolution-6.1.0 -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true
 
-  - FILE5="-Dfile=./lib/quickhull3d.jar"
-  - mvn install:install-file $FILE5 -DgroupId=com.github.wblut -DartifactId=quickhull3d -Dversion=1.8.2 -Dpackaging=jar -DgeneratePom=true
+  - FILE5="-Dfile=./lib/jts.jar"
+  - mvn install:install-file $FILE5 -DgroupId=com.github.wblut -DartifactId=jts -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true
+
+  - FILE6="-Dfile=./lib/trove-3.1a1.jar"
+  - mvn install:install-file $FILE6 -DgroupId=com.github.wblut -DartifactId=trove-3.1a1 -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true
