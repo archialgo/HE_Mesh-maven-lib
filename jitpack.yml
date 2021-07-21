@@ -6,6 +6,7 @@ install:
   - FILE2="-Dfile=./lib/hemesh-lab.jar"
   - mvn install:install-file $FILE2 -DgroupId=com.github.wblut -DartifactId=hemesh-lab -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true -Dclassifier=lab
 
+
   # - FILE="-Dfile=./lib/hemesh-data-3_0_0.jar"
   # - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=hemesh-data-3_0_0 -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true -Dclassifier=data
 
