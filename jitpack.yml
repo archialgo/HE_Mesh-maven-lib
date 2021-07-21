@@ -1,16 +1,26 @@
 install:
 
   - FILE="-Dfile=./lib/hemesh.jar"
-  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=hemesh -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true         
+  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=hemesh -Dversion=3.0.3 -Dpackaging=jar -DgeneratePom=true         
 
-  - FILE3="-Dfile=./lib/hemesh-external.jar"
-  - mvn install:install-file $FILE3 -DgroupId=com.github.wblut -DartifactId=hemesh-external -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true 
+  - FILE="-Dfile=./lib/hemesh-external-2_2_0.jar"
+  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=hemesh-external-2_2_0 -Dversion=3.0.3 -Dpackaging=jar -DgeneratePom=true 
 
-  - FILE4="-Dfile=./lib/javolution-6.1.0.jar"
-  - mvn install:install-file $FILE4 -DgroupId=com.github.wblut -DartifactId=javolution-6.1.0 -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true
+  - FILE="-Dfile=./lib/javolution-6.1.0.jar"
+  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=javolution-6.1.0 -Dversion=3.0.3 -Dpackaging=jar -DgeneratePom=true
 
-  - FILE5="-Dfile=./lib/jts.jar"
-  - mvn install:install-file $FILE5 -DgroupId=com.github.wblut -DartifactId=jts -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true
+  - FILE="-Dfile=./lib/jts.jar"
+  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=jts -Dversion=3.0.3 -Dpackaging=jar -DgeneratePom=true
 
-  - FILE6="-Dfile=./lib/trove-3.1a1.jar"
-  - mvn install:install-file $FILE6 -DgroupId=com.github.wblut -DartifactId=trove-3.1a1 -Dversion=2.0.3 -Dpackaging=jar -DgeneratePom=true
+  - FILE="-Dfile=./lib/trove-3.1a1.jar"
+  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=trove-3.1a1 -Dversion=3.0.3 -Dpackaging=jar -DgeneratePom=true
+
+  - FILE="-Dfile=./lib/exp4j.jar"
+  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=exp4j -Dversion=3.0.3 -Dpackaging=jar -DgeneratePom=true
+
+  - FILE="-Dfile=./lib/objparser.jar"
+  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=objparser -Dversion=3.0.3 -Dpackaging=jar -DgeneratePom=true
+
+  - FILE="-Dfile=./lib/hemesh-data-2_2_0.jar"
+  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=hemesh-data-2_2_0 -Dversion=3.0.3 -Dpackaging=jar -DgeneratePom=true
+
