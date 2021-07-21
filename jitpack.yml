@@ -1,22 +1,22 @@
 install:
   # hemesh:7 jars
-  - FILE1="-Dfile=./2019.0.2/hemesh.jar"
+  - FILE1="-Dfile=./hemesh.jar"
   - mvn install:install-file $FILE1 -DgroupId=com.github.wblut -DartifactId=hemesh -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true
 
-  - FILE2="-Dfile=./2019.0.2/hemesh-lab.jar"
+  - FILE2="-Dfile=./hemesh-lab.jar"
   - mvn install:install-file $FILE2 -DgroupId=com.github.wblut -DartifactId=hemesh-lab -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true
 
-  - FILE3="-Dfile=./2019.0.2/hemesh-data-3_0_0.jar"
+  - FILE3="-Dfile=./hemesh-data-3_0_0.jar"
   - mvn install:install-file $FILE3 -DgroupId=com.github.wblut -DartifactId=hemesh-data-3_0_0 -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true
 
-  - FILE4="-Dfile=./2019.0.2/hemesh-external-6_0_0.jar"
+  - FILE4="-Dfile=./hemesh-external-6_0_0.jar"
   - mvn install:install-file $FILE4 -DgroupId=com.github.wblut -DartifactId=hemesh-external-6_0_0 -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true
 
-  - FILE5="-Dfile=./2019.0.2/eclipse-collections-api-9.0.0.jar"
+  - FILE5="-Dfile=./eclipse-collections-api-9.0.0.jar"
   - mvn install:install-file $FILE5 -DgroupId=com.github.wblut -DartifactId=eclipse-collections-api-9.0.0 -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true
 
-  - FILE6="-Dfile=./2019.0.2/eclipse-collections-9.0.0.jar"
+  - FILE6="-Dfile=./eclipse-collections-9.0.0.jar"
   - mvn install:install-file $FILE6 -DgroupId=com.github.wblut -DartifactId=eclipse-collections-9.0.0 -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true
 
-  - FILE7="-Dfile=./2019.0.2/javaluator-3.0.2.jar"
+  - FILE7="-Dfile=./javaluator-3.0.2.jar"
   - mvn install:install-file $FILE7 -DgroupId=com.github.wblut -DartifactId=javaluator-3.0.2 -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true
