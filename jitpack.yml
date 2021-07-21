@@ -3,8 +3,8 @@ install:
   - FILE="-Dfile=./lib/hemesh.jar"
   - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=hemesh -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true
                 
-  - FILE="-Dfile=./lib/hemesh-lab.jar"
-  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=hemesh-lab -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true -Dclassifier=lab
+  - FILE2="-Dfile=./lib/hemesh-lab.jar"
+  - mvn install:install-file $FILE2 -DgroupId=com.github.wblut -DartifactId=hemesh-lab -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true -Dclassifier=lab
 
   # - FILE="-Dfile=./lib/hemesh-data-3_0_0.jar"
   # - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=hemesh-data-3_0_0 -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true -Dclassifier=data
@@ -18,5 +18,5 @@ install:
   # - FILE="-Dfile=./lib/eclipse-collections-9.0.0.jar"
   # - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=eclipse-collections-9.0.0 -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true
 
-  - FILE="-Dfile=./lib/javaluator-3.0.2.jar"
-  - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=javaluator-3.0.2 -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true -Dclassifier=javaluator
+  # - FILE="-Dfile=./lib/javaluator-3.0.2.jar"
+  # - mvn install:install-file $FILE -DgroupId=com.github.wblut -DartifactId=javaluator-3.0.2 -Dversion=2019.0.2 -Dpackaging=jar -DgeneratePom=true -Dclassifier=javaluator
