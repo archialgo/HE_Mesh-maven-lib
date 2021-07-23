@@ -24,7 +24,7 @@ original author: [wblut/HE_Mesh](https://github.com/wblut/HE_Mesh)
 ``` xml
 	<dependency>
 	    <groupId>com.github.archialgo</groupId>
-	    <artifactId>iGeo-maven-lib</artifactId>
+	    <artifactId>HE_Mesh-maven-lib</artifactId>
 	    <version>Tag</version>
 	</dependency>
 ```
