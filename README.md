@@ -3,12 +3,12 @@
 original author: [wblut/HE_Mesh](https://github.com/wblut/HE_Mesh)
 
 ## Supported Versions:  
-1.8.2  
-2.0.3  
-2.0.9  
-3.0.3  
-6.1.0  
-2019.0.2
+- 1.8.2  
+- 2.0.3  
+- 2.0.9  
+- 3.0.3  
+- 6.1.0  
+- 2019.0.2
 
 ## How to
 **Step 1.** Add the JitPack repository to your build file
